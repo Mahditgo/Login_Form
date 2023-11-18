@@ -1,0 +1,122 @@
+
+/* defult margin and padding */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form-control input:focus{
+    outline: none;
+}
+
+body {
+    background: url('../image/neon.jpg');
+    font-family: 'Muli', sans-serif;
+    backdrop-filter: blur(5px);
+   height: 100%;
+   width: 100%;
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   overflow: hidden;
+   height: 100vh;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 25px 40px;
+    border-radius: 5px;
+}
+
+.container h2 {
+    text-align: center;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.form-control {
+    position: relative;
+    margin: 100px 40px;
+    width: 400px;
+    
+}
+
+.form-control input {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid #fff;
+    display: block;
+    width: 100%;
+    font-size: 19px;
+    color: #fff;
+}
+
+.form-control label {
+    position: absolute;
+    top: -40px;
+    color: #fff;
+    pointer-events: none;
+}
+
+.button {
+    text-align: center;
+
+}
+
+/* neon btn */
+.btn {
+width: 100%;
+color: #db3eb1;
+border: 6px solid #db3eb1;
+border-radius:15px;
+padding: 15px 25px;
+font-size: 30px;
+font-family: tahoma;
+letter-spacing:5px;
+cursor: pointer;
+font-weight: bold;
+filter: drop-shadow(0 0 15px #db3eb1) drop-shadow(0 0 50px #db3eb1) contrast(2) brightness(2);
+transition: .5s;
+}
+
+.button:hover {
+color: black;
+background-color: #db3eb1;
+filter: drop-shadow(0 0 20px #db3eb1) contrast(2) brightness(2);
+}
+
+.text {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.text a {
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+/* style for alert message in functions.php  backend*/
+.alert-s {
+    background-color: #db3eb1;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+
+
+/* for index.php */
+.title {
+    margin: 0 auto;
+}
+
+.title h1 {
+    color: #fff;
+}
